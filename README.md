@@ -64,3 +64,8 @@ All ticket data is stored outside the project in `~/.tray-ticket-assistant/`:
         ├── prompts.jsonl # all prompts sent to the AI
         └── responses.jsonl # all AI responses
 ```
+
+## Roadmap
+
+- [ ] **Jira Integration** — two-way sync with Jira so tickets can be pulled from and pushed to Jira boards automatically
+- [ ] **Decentralized Ad-hoc Dev Groups** — peer-to-peer ticket sharing where multiple devs on different machines can collaboratively view, update, and chat on the same ticket without a central server
