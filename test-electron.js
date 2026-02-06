@@ -1,0 +1,1 @@
+const e = require("electron"); console.log("TYPE:", typeof e); console.log("KEYS:", Object.keys(e).slice(0, 10)); console.log("APP:", typeof e.app); e.app.whenReady().then(() => { console.log("READY"); e.app.quit(); });
